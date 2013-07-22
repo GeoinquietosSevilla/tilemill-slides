@@ -66,7 +66,7 @@
 					</ul>
 				</section>
 
-				<section data-state="studiobg">
+				<section>
 					<section>
 						<h2>TileMill</h2>
 						<h3>¿Qué es?</h3>
@@ -77,10 +77,54 @@
 						<blockquote>
 							TileMill es una aplicación de escritorio para crear visualizaciones de datos geográficos. 
 						</blockquote>
-						<p></p>
+						<p class="fragment">Es multiplataforma</p>
+						<ul>
+							<li class="fragment roll-in">Linux</li>
+							<li class="fragment roll-in">Mac</li>
+							<li class="fragment roll-in"> y Windows</li>
 						<p class="fragment" style="font-size:70%">Aunque puede ser instalado en modo servidor, por ejemplo aquí:</p>
 						<p class="fragment"><a href="http://is.gd/tilemill" title="Online TileMill instance" target="_blank">http://is.gd/tilemill</a></p>
 					</section>
+					<section>
+						<h2>¿Qué no es?</h2>
+						<p>No permite realizar modificaciones en los datos.</p>
+						<p class="fragment grow">No es un editor GIS.</p>
+						<p class="fragment">Alternativas:</p>
+						<div>
+							<div class="fragment" style="float:left;width:300px;">
+								<img  src="images/qgis_logo.png" style="width:50%; height:50%; clear:both;" />
+								<p>Qgis</p>
+							</div>
+							<div class="fragment" style="float:left;width:300px;">
+								<img  src="images/logo_gvSIG.png" style="width:50%; height:50%; clear:both;" />
+								<p>gvSIG</p>
+							</div>
+							<div class="fragment" style="float:left;width:300px;">
+								<div class="fragment fade-out">
+									<img  src="images/icon_arcgis.gif" style="width:50%; height:50%; clear:both;" />
+									<p>ArcGIS</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Instalación</h2>
+						<ol>
+							<li>Acceder a <a href="http://www.mapbox.com/tilemill/">http://www.mapbox.com/tilemill/</a>
+							<img src="images/download_tilemill.png" style="width:40%;" class="centered"/></li>
+							<li class="fragment">Seleccionar el sistema operativo adecuado y descargar el instalador</li>
+							<li class="fragment">Ejecutar el instalador
+								<pre><code class="data-trim">
+user@machine:~$ tar xvzf install-tilemill.tar.gz
+user@machine:~$ sudo ./install-tilemill.sh
+								</code></pre>
+							</li>
+						</ol>
+					</section>
+
 				</section>
 
 
